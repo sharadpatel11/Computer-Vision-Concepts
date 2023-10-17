@@ -4,7 +4,7 @@ import java.util.*;
 public class Morphological_Operations{
 
     public static class Morphology{
-        private int numImgRows, numImgCols, imgMin, imgMax, numStructRows, numStructCols, structMin, rowOrigin, colOrigin, rowFrameSize, colFrameSize, extraRows, extraCols, rowSize, colSize;
+        private int numImgRows, numImgCols, imgMin, imgMax, numStructRows, numStructCols, structMin, structMax, rowOrigin, colOrigin, rowFrameSize, colFrameSize, extraRows, extraCols, rowSize, colSize;
         protected int[][] zeroFramedAry, morphAry, tempAry, structAry;
 
         public Morphology(int iRows, int iCols, int iMin, int iMax, int sRows, int sCols, int sMin, int sMax,  int rOrigin, int cOrigin){
